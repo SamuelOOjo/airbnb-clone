@@ -1,0 +1,51 @@
+.questioncard {
+  position: relative;
+  text-align: center;
+}
+
+.questioncard > img {
+  width: 94%;
+  object-fit: contain;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.questioncard_info {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 1;
+  bottom: 1;
+  color: #fff;
+  height: 100px;
+  padding: 40px 0 0 120px;
+  width: 30%;
+}
+
+.questioncard_info > h1 {
+  font-size: 90px;
+  font-weight: 600;
+  letter-spacing: 0.98px;
+  line-height: 90px;
+  text-align: left;
+}
+
+.questioncard_info > button {
+  padding: 14px 24px;
+  float: left;
+  margin-top: 50%;
+  border: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+.questioncard_info > button:hover {
+  cursor: pointer;
+}

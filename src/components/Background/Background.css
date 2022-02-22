@@ -1,0 +1,51 @@
+.background {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.background > img {
+  width: 90%;
+  object-fit: contain;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.background__text {
+  color: white;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  height: 100px;
+  padding-bottom: 210px;
+}
+
+.background__text > h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.background__textButton {
+  color: #c6017e;
+  background-size: 100%;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 24px;
+  max-height: 120px;
+  padding: 14px 32px;
+  border-radius: 999px;
+  border: none;
+  margin: 16px 0 0;
+}
+
+.background__textButton:hover {
+  cursor: pointer;
+}

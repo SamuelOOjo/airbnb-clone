@@ -1,0 +1,52 @@
+.discover {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  flex: 1;
+}
+
+.discover > img {
+  object-fit: fill;
+  width: 100%;
+  object-position: 50% 50%;
+}
+
+.discover__info {
+  color: white;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 1;
+  bottom: 1;
+  color: #fff;
+  height: 100px;
+  padding: 25px 0 0 70px;
+  width: 50%;
+}
+
+.discover__info > h2 {
+  font-size: 53px;
+  font-weight: 600;
+  max-width: 100%;
+  min-width: 0px;
+  line-height: 60px;
+  white-space: pre-line;
+}
+
+.discover__info > button {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 25px;
+}
+
+.discover__info > button:hover {
+  cursor: pointer;
+}

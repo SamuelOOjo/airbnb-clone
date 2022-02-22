@@ -1,0 +1,39 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card > img {
+  object-fit: fill;
+  width: 100%;
+  object-position: 50% 50%;
+}
+
+.card__info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px 16px 80px;
+  border: 1;
+  color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.card__info > h2 {
+  font-size: 23px;
+  font-weight: 600;
+  max-width: 100%;
+  min-width: 0px;
+  line-height: 26px;
+}
+
+.card__info > h4 {
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 100%;
+  min-width: 0px;
+  line-height: 20px;
+  margin: 8px 0px;
+}

@@ -1,0 +1,67 @@
+.destinationInfo {
+  display: flex;
+  background-color: black;
+  height: 66px;
+  padding-bottom: 30px;
+  justify-content: center;
+  position: relative;
+  margin-top: 80px;
+  /* width: auto; */
+  /* align-items: center; */
+  /* max-width: 600px; */
+}
+
+.destinationInfo__inputs {
+  display: flex;
+  /* flex: 1; */
+  align-items: center;
+  background-color: white;
+  /* color: white; */
+  padding: 0 35px;
+  margin: 0 70px;
+  border-radius: 999px;
+  /* max-width: 66%; */
+  /* max-width: 54%; */
+}
+
+.destinationInfo__location,
+.destinationInfo__checkin,
+.destinationInfo__checkout,
+.destinationInfo__guest {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* color: white; */
+}
+
+.destinationInfo__location > input,
+.destinationInfo__checkin > input,
+.destinationInfo__checkout > input,
+.destinationInfo__guest > input {
+  border: none;
+  border-width: 0px;
+  outline: 0;
+}
+
+.destinationInfo__location > label,
+.destinationInfo__checkin > label,
+.destinationInfo__checkout > label,
+.destinationInfo__guest > label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+}
+
+.destinationInfo__inputs > .MuiDivider-root {
+  margin-right: 25px;
+}
+
+.destinationInfo__search {
+  background-color: #ff385c;
+  color: white;
+  padding: 12px;
+  border-radius: 999px;
+  margin-right: -25px;
+}

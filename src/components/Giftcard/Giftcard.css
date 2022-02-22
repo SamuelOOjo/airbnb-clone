@@ -1,0 +1,40 @@
+.giftcard {
+  display: flex;
+  padding: 64px 40px 0 40px;
+}
+
+.giftcard_shop {
+  flex: 1 !important;
+}
+
+.giftcard_shop > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1.06px;
+}
+
+.giftcard_card {
+  object-fit: contain;
+  height: auto;
+  flex: 1;
+}
+
+.giftcard_shop > button {
+  margin-top: 25px;
+  padding: 14px 24px;
+  font-size: 16px;
+  justify-content: flex-start;
+  line-height: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  max-width: 100%;
+}
+
+.giftcard_shop > button:hover {
+  cursor: pointer;
+}
