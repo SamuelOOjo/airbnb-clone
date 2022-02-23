@@ -2,8 +2,11 @@ import React from "react";
 import Divider from "@mui/material/Divider";
 import SearchIcon from "@mui/icons-material/Search";
 import "./DestinationInfo.css";
+import { useHistory } from "react-router-dom";
 
 function DestinationInfo() {
+  const history = useHistory();
+
   return (
     <div data-testid='destinationInfo_test' className="destinationInfo">
       <div className="destinationInfo__inputs">
@@ -41,7 +44,7 @@ function DestinationInfo() {
           <label>Guest</label>
           <input type="number" placeholder="Add guests" />
         </div>
-        <SearchIcon className="destinationInfo__search" />
+        <SearchIcon className="destinationInfo__search" onClick={(e) => history.push("/search")}/>
       </div>
     </div>
   );

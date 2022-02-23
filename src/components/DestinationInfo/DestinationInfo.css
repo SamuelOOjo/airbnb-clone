@@ -65,3 +65,7 @@
   border-radius: 999px;
   margin-right: -25px;
 }
+
+.destinationInfo__search:hover {
+  cursor: pointer;
+}
