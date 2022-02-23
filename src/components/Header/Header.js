@@ -35,10 +35,6 @@ function Header() {
     };
   }, []);
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
-
   return (
     <div data-testid='header_test' className={`header ${show && "header__white"}`}>
       <img
