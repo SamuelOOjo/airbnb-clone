@@ -42,7 +42,7 @@ function DestinationInfo() {
         />
         <div className="destinationInfo__guest">
           <label>Guest</label>
-          <input type="number" placeholder="Add guests" />
+          <input type="number" placeholder="Add guests"/>
         </div>
         <SearchIcon className="destinationInfo__search" onClick={(e) => history.push("/search")}/>
       </div>

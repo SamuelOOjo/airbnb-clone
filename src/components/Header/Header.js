@@ -26,7 +26,7 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 1 || window.location.pathname.includes("search")) {
+      if (window.scrollY > 100 || window.location.pathname.includes("search")) {
         handleShow(true);
       } else handleShow(false);
     });
