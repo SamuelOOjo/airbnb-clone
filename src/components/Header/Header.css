@@ -17,6 +17,10 @@
   height: 40px !important;
 }
 
+.header__icon:hover {
+  cursor: pointer;
+}
+
 .header__center {
   display: flex;
   align-items: center;

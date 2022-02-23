@@ -26,7 +26,7 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 1 || window.location.pathname.includes("search")) {
+      if (window.scrollY > 100 || window.location.pathname.includes("search")) {
         handleShow(true);
       } else handleShow(false);
     });
@@ -34,6 +34,10 @@ function Header() {
       window.removeEventListener("scroll", null);
     };
   }, []);
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
 
   return (
     <div data-testid='header_test' className={`header ${show && "header__white"}`}>
